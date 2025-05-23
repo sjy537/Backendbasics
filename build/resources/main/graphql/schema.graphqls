@@ -1,0 +1,8 @@
+type Query {
+    getPortfolioLists(ownerId: String!): [PortfolioListOutput]
+}
+
+type PortfolioListOutput {
+    id: ID!
+    name: String!
+}
